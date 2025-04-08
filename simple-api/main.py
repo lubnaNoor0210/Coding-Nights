@@ -6,18 +6,18 @@ app = FastAPI()
 # side_hustles and money_quotes
 
 side_hustles = [
-   " Freelance Writing- Writing articles, blogs, copy."
-   "Dropshipping Business- Selling products without inventory."
-   "Social Media Management- Curating and scheduling posts."
-   "Affiliate Marketing- Earning commissions through referrals."
-   "Online Tutoring- Teaching subjects virtually online."
+   " Freelance Writing- Writing articles, blogs, copy.",
+   "Dropshipping Business- Selling products without inventory.",
+   "Social Media Management- Curating and scheduling posts.",
+   "Affiliate Marketing- Earning commissions through referrals.",
+   "Online Tutoring- Teaching subjects virtually online.",
 ]
 money_quotes = [
-    "The hustle never stops, and neither does the opportunity."
-    "Success starts with one step—take it today!"
-    "Your side hustle is your future's foundation."
-    "Turn passion into profit, one day at a time."
-    "Money flows where hustle grows."
+    "The hustle never stops, and neither does the opportunity.",
+    "Success starts with one step—take it today!",
+    "Your side hustle is your future's foundation.",
+    "Turn passion into profit, one day at a time.",
+    "Money flows where hustle grows.",
 ]
 
 @app.get("/side_hustles")
